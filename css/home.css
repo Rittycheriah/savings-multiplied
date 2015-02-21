@@ -8,7 +8,11 @@
 }
 
 .fortopcolor {
-	background-color: #CFEFEE;
+  background-color: #CFEFEE;
+}
+
+#mainnav {
+  list-style-type: none;
 }
 
 .navbar {
@@ -16,10 +20,17 @@
 	width: 100%;
 }
 
+.navbar ul {
+	list-style-type: none;
+}
+
 .forbottomcolor {
 	background-color: #69C4CC;
 }
 
+.mainfooter ul {
+	list-style-type: none;
+}
 /*-  Dark Teal: #69C4CC
 -  Light Blue Text: #D5F1F0
 -  Medium Blue Text: #2A959E
