@@ -1,3 +1,33 @@
-h1{
-	color: red;
+
+#firstword {
+	color: #6F308B;
 }
+
+#secondword {
+	color: #E9168C;
+}
+
+.fortopcolor {
+	background-color: #CFEFEE;
+}
+
+.navbar {
+	background-color: #F3CECD;
+	width: 100%;
+}
+
+.forbottomcolor {
+	background-color: #69C4CC;
+}
+
+/*-  Dark Teal: #69C4CC
+-  Light Blue Text: #D5F1F0
+-  Medium Blue Text: #2A959E
+-  Light Teal: #CFEFEE
+-  Bright Pink: #E9168C
+-  Bright Purple: #6F308B
+-  Dark Purple: #6F1549
+
+git add -A < ---- next time
+
+*/
