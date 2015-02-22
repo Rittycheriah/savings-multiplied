@@ -244,8 +244,23 @@
 	border-bottom-left-radius: 50px;
 }
 
+#damntree { /*... positioning????? */
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+
 .socialfoot {
 	position: relative;
+	clear: both;
+	margin: 2.5% 6% 2.5% 6%;
+	/*border: 5%;
+	border-image-source: "/images/homepage/dotted_line_44x9.png";
+    border-image-repeat: repeat; How do I get this to look like the page?*/
+}
+
+.socimg {
+	padding: 0 2% 0 2%;
 }
 
 .footerbg {
