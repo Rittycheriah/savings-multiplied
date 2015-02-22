@@ -61,7 +61,7 @@
 }
 
 #About {
-   background-color:#CFEFEE;
+   background-color:#69C4CC;
    color: white;
    moz-border-radius: 25px;
    -webkit-border-radius:  25px;
@@ -105,7 +105,7 @@
 
 .navbar {
 	background-color: #F3CECD;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	height: 5%;
@@ -115,16 +115,21 @@
 	z-index: 10;
 }
 
+.table {
+	display: in-line;
+	margin: 0 auto; 
+}
+
 .navbar ul {
 	list-style-type: none;
-	margin: 0;
+	padding: 2.5%;
+	margin: 0 10% 0 10%;
 	clear: both;
 }
 
 .navbar ul li {
-	display: inline-block;
-	margin: 2.5%;
-	clear: both;
+	display: inline;
+	padding: 5%;
 }
 
 .forbottomcolor {
@@ -169,10 +174,15 @@
 	font-weight: 100px;
 }
 
+#smallOwl {
+	float: left;
+}
+
 .secondLine {
 	color: #2A959E;
-	margin: 1.5%;
+	margin: .5%;
 	text-align: left;
+	float: left;
 	font-weight: 100px;
 }
 
