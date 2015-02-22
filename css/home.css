@@ -19,7 +19,10 @@
 	height: 90%;
 	width: 80%;
 	margin: 0 auto;
-	border-radius: 15px ;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 	clear: both;
 	position: relative;
 	z-index: 3;
@@ -99,7 +102,6 @@
 	width: 80%;
 	margin: 0 auto;
 	border-radius: 15px;
-	clear: both;
 	position: relative;
 	z-index: 3;
 	border-top-left-radius: 0;
@@ -110,6 +112,7 @@
 
 .maintext {
 	text-align: left;
+	word-wrap: break-word;
 	float: left;
 	margin: 20%;
 	padding: 10%;
@@ -117,16 +120,27 @@
 
 .info {
 	margin: 0;
+	word-wrap: break-word;
+	padding: 2.5%;
 	text-align: left;
-	color: green;
+	color: #32cd32;
+	font-weight: 100px;
 }
 
 .secondLine {
 	color: #2A959E;
+	margin: 1.5%;
 	text-align: left;
+	font-weight: 100px;
+}
+
+.kidimages {
+	display: inline-block;
 }
 
 #twins {
+	float: right;
+	position: relative;
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 	border-bottom-right-radius: 0;
@@ -134,10 +148,15 @@
 }
 
 #triplets {
-
+	float: right;
+	position: relative;
+	margin: 1.5%;
 }
 
 #quads {
+	float: right;
+	position: relative;
+	margin: 1.5%;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 50px;
