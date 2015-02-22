@@ -44,14 +44,41 @@
   text-align: right;
   padding: .5%;
   clear: none;
+  font-weight: bold;
 }
 
 #mainnav {
   list-style-type: none;
   text-align: right;
   padding-bottom: .5%;
-  margin: 0;
+  margin: 0
 }
+
+.mainnavbuttons {
+
+}
+
+#About {
+   background-color:#CFEFEE;
+   color: white;
+}
+
+#Contact {
+   background-color:#32cd32;;
+   color: white;
+}
+
+#Blog{
+   background-color:#6F308B;
+   color: white;
+     background-color:;
+}
+
+#Press{
+   background-color:#E9168C;
+   color: white;
+}
+
 
 #mainnav li {
 	display: inline-block;
