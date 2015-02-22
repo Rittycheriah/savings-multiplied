@@ -1,44 +1,110 @@
 
-#firstword {
-	color: #6F308B;
-}
-
-#secondword {
-	color: #E9168C;
-}
-
 .fortopcolor {
   background-color: #CFEFEE;
+  margin: 0 auto;
+  padding: 15%;
+  position: relative;
+  z-index: 1;
+}
+
+#rightlogo {
+	height: 25%;
+	width: 45%;
+	padding: .5%;
+	float: left;
+	display: inline-block;
+}
+
+#motto {
+  margin: 0;
+  color: #CFEFEE;
+  background-color: white;
+  text-align: right;
+  padding: .5%;
+  float: right;
 }
 
 #mainnav {
   list-style-type: none;
+  text-align: right;
+  padding-bottom: .5%;
+  margin: 0;
+  display: inline-block;
+}
+
+#mainnav li {
+	display: inline-block;
+	clear: left;
+	padding: 2.5%;
+}
+
+.whiteboxbg {
+	background-color:FFF;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
 }
 
 .navbar {
 	background-color: #F3CECD;
+	margin: 0;
+	padding: 0;
 	width: 100%;
+	height: 5%;
+	float: left;
+	clear: both;
 }
 
 .navbar ul {
 	list-style-type: none;
+	margin: 0;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 2.5%;
 }
 
 .forbottomcolor {
 	background-color: #69C4CC;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*.info {
+	margin: 0;
+}*/
+
+.secondLine {
+	color: limegree;
+}
+
+.footerbg {
+	background-color: #69C4CC;
+	margin:0;
 }
 
 .mainfooter ul {
 	list-style-type: none;
+	margin:0;
+	padding: 10% 0 0 10%;
 }
+
+.mainfooter ul li {
+	display: inline-block;
+	padding: 2px 10px 2px 0;
+	margin: 0 auto;
+}
+
 /*-  Dark Teal: #69C4CC
 -  Light Blue Text: #D5F1F0
 -  Medium Blue Text: #2A959E
 -  Light Teal: #CFEFEE
 -  Bright Pink: #E9168C
+-  Light Pink: #F3CECD 
 -  Bright Purple: #6F308B
 -  Dark Purple: #6F1549
-
-git add -A < ---- next time
 
 */
