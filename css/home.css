@@ -130,6 +130,7 @@
 .navbar ul li {
 	display: inline;
 	padding: 5%;
+	width: 15%;
 }
 
 .forbottomcolor {
@@ -148,7 +149,7 @@
 	text-align: left;
 	padding: 0;
 	margin: 0 auto;
-	height: 700px;
+	height: 65%;
 	width: 80%;
 	background-color: white;
 	border-radius: 15px;
@@ -228,15 +229,17 @@
 	display: inline;
 	float: right;
 	position: relative;
+	overflow: auto;
 	margin: 1.5%;
 }
 
 #quads {
-	width: 100%
+	width: 80%;
 	height: 33%;
 	display: inline;
 	float: right;
 	position: relative;
+	overflow: auto;
 	margin: 1.5%;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
@@ -245,22 +248,29 @@
 }
 
 #damntree { /*... positioning????? */
-	position: relative;
 	float: right;
 	display: inline-block;
+	margin-top: 5em;
+	margin-right: -2em;
+}
+
+.dottedbottborder {
+	height: 2em;
+	width: 100%;
+	background-image: url("../images/homepage/dotted_line_44x9.png");
+    background-repeat: repeat-x;
+	clear: both;
+	margin: 0;
 }
 
 .socialfoot {
-	position: relative;
-	clear: both;
-	margin: 2.5% 6% 2.5% 6%;
-	/*border: 5%;
-	border-image-source: "/images/homepage/dotted_line_44x9.png";
-    border-image-repeat: repeat; How do I get this to look like the page?*/
+	margin: 1em;
 }
 
 .socimg {
-	padding: 0 2% 0 2%;
+
+	padding: 0 3% 0 3%;
+	display: inline-block;
 }
 
 .footerbg {
@@ -285,7 +295,14 @@
 	color: white;
 }
 
-/*-  Dark Teal: #69C4CC
+/*-  
+
+Sh*t I need to work on: 
+Fonts
+Adding image bar and positioning buttons
+Take off buttons shadows/make flat
+
+Dark Teal: #69C4CC
 -  Light Blue Text: #D5F1F0
 -  Medium Blue Text: #2A959E
 -  Light Teal: #CFEFEE
