@@ -38,52 +38,59 @@
 				<div class="container">
 					<div class="greenfield">
 						<form action="" method="get">
-							<p id="searchtext" class="criteria"> Limit your search by: </p> 
-							<hr>
+							<p id="searchfirstline" class="criteria"> Limit your search by: </p> 
 							
-							<input type="text" id="search" size="15" maxlength="25"> 
-							<button type="button" id="greensearch" class="criteria">Search</button>
+							<input type="text" id="searchfield" size="15" maxlength="25"> 
+							<button type="button" id="greenbutton" class="criteria">Search</button>
 
-							<p class="criteria" > Condition: </p> 
-								<input type="radio" class="conditionbutton" name="condition" value="New"/> New
-								<input type="radio" class="conditionbutton" name="condition" value=" Gently Used"/> Gently Used
-							
-							<p class="criteria"> Size: </p>
-								<input type="radio" class="sizebutton" name="size" value="4"/> 4
-								<input type="radio" class="sizebutton" name="size" value="5"/> 5
-								<input type="radio" class="sizebutton" name="size" value="6"/> 6
-								<input type="radio" class="sizebutton" name="size" value="7"/> 7
-								<input type="radio" class="sizebutton" name="size" value="8"/> 8
-								<input type="radio" class="sizebutton" name="size" value="9"/> 9
-								<input type="radio" class="sizebutton" name="size" value="10"/> 10
-								<input type="radio" class="sizebutton" name="size" value="11"/> 11
-							
-							<p class="criteria"> Season: </p>
-								<input type="radio" class="seasonbutton" name="season" value="AllSeasons"/> 
-								<label for="season"> All Seasons </label>
-								<input type="radio" class="seasonbutton" name="season" value="Spring"/> Spring
-								<input type="radio" class="seasonbutton" name="season" value="Summer"/> Summer
-								<input type="radio" class="seasonbutton" name="season" value="Fall"/> Fall
-								<input type="radio" class="seasonbutton" name="season" value="Winter"/> Winter
-							
-							<p class="criteria"> Type: </p> 
-								<input type="radio" name="type" class="typebutton" value="Any"/> Any
-								<input type="radio" name="type" class="typebutton" value="One-Piece"/> One-Piece
-								<input type="radio" name="type" class="typebutton" value="Tops"/> Tops
-								<input type="radio" name="type" class="typebutton" value="Bottoms"/> Bottoms
-							
-							<p class="criteria"> Brand: </p>  
+					
+						  <fieldset id="conditionsearchfield">
+							<legend class="criteria" id="conditionst"> Condition: </legend>
+								  <label class="conditionselector"><input type="radio" class="conditionbutton" name="condition" value="New"/> New </label> 
+								  <label class="conditionselector"> <input type="radio" class="conditionbutton" name="condition" value=" Gently Used"/> Gently Used </label>
+							</fieldset>
 
+						<fieldset id="sizefield">
+							<legend class="criteria"> Size: </legend>
+							<div class="contain2columns">
+							  <div class="sizecolumn1">
+								<label> <input type="radio" class="sizebutton" name="size" value="4"/> 4</label>
+								<label> <input type="radio" class="sizebutton" name="size" value="5"/> 5</label>
+								<label> <input type="radio" class="sizebutton" name="size" value="6"/> 6</label>
+								<label> <input type="radio" class="sizebutton" name="size" value="7"/> 7</label>
+							  </div>
+							  <div class="sizecolumn2">
+								<label> <input type="radio" class="sizebutton" name="size" value="8"/> 8</label>
+								<label> <input type="radio" class="sizebutton" name="size" value="9"/> 9 </label>
+								<label> <input type="radio" class="sizebutton" name="size" value="10"/> 10 </label>
+								<label> <input type="radio" class="sizebutton" name="size" value="11"/> 11 </label>
+							   </div>
+							</div>
+							</fieldset>
+
+							<fieldset id="seasonfield">
+								<legend class="criteria"> Season: </legend>
+								  <div class="seasoncolumn">
+									<label> <input type="radio" class="seasonbutton" name="season" value="AllSeasons"/> All Seasons </label>
+									<label> <input type="radio" class="seasonbutton" name="season" value="Spring"/> Spring </label>
+									<label> <input type="radio" class="seasonbutton" name="season" value="Summer"/> Summer </label>
+									<label> <input type="radio" class="seasonbutton" name="season" value="Fall"/> Fall </label>
+									<label> <input type="radio" class="seasonbutton" name="season" value="Winter"/> Winter </label>
+								  </div>
+							</fieldset>
+
+							
+							<fieldset id="typefield">
+								<legend class="criteria"> Type: </legend>
+									<label> <input type="radio" name="type" class="typebutton" value="Any"/> Any </label>
+									<label> <input type="radio" name="type" class="typebutton" value="One-Piece"/> One-Piece </label>
+									<label> <input type="radio" name="type" class="typebutton" value="Tops"/> Tops </label>
+									<label> <input type="radio" name="type" class="typebutton" value="Bottoms"/> Bottoms </label>
+							</fieldset>
+							
+							<legend class="criteria"> Brand: </p>  
 						</form>
 					</div> 
-					<div class="dottedbottborder">	
-					</div> 
-					<div class="socialfoot">
-						<img src="../images/homepage/facebook_callout.png" class= "socimg" id="facebook">
-						<img src="../images/homepage/twitter_callout.png" class= "socimg" id="twitter">
-						<img src="../images/homepage/message_board_callout.png" class= "socimg" id="message">
-						<img src="../images/homepage/special_offers_callout.png" class= "socimg" id="offer">
-					</div>
 				</div>
 			</div>
 
