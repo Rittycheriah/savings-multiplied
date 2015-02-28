@@ -208,7 +208,7 @@
 }
 
 label {
-	width: 80px;
+	width: 100%;
 	padding: 5% 0;
 	font-family: Arial;
 	color: green;
@@ -240,14 +240,19 @@ label.conditionselector {
 
 .sizecolumn1 {
 	width: 50%;
-	height: 100%;
-	margin: 0 auto;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	float: left;
 }
 
 .sizecolumn2 {
 	width: 50%;
-	height: 100%;
-	margin: 0 auto;
+	height: 120px;
+	margin: 0;
+	margin-right: 0;
+	padding: 0;
+	float: left;
 }
 
 #sizefield {
@@ -255,20 +260,18 @@ label.conditionselector {
 }
 
 #sizefield.sizebutton {
-	display: inline-block;
 }
 
 label.sizebutton {
-	width: 50px;
-	display: inline-block;
-	float: right;
+	width: 100%;
+	float: left;
 	margin: 0;
 }
 
 #seasonfield {
 	border: none;
+	width: 100%;
 	display: inline-block;
-	text-align: center;
 }
 
 label.seasonbutton {
@@ -277,11 +280,20 @@ label.seasonbutton {
 }
 
 .seasoncolumn {
+	width: 50%;
 	margin: 0 auto;
 }
 
 #typefield {
 	border: none;
+	width: 190px;
+	display: inline-block;
+}
+
+.typecolumn {
+	width: 70%;
+	margin: 0 auto;
+	float: right;
 }
 
 .dottedbottborder {
