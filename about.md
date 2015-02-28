@@ -1,26 +1,27 @@
-# Heading 1
+# Rainu
 
-## Heading 2
+## Susan
 
-###Heading 3
+### Ittycheriah
 
 
-1. Item 1
-1. Item 2
-1. Item 3
-1. Item 4
+1. has a dog
+1. loves to cook
+1. is Indian
+1. is learning to code
 
 
 --- 
 
-* Bullet 1
-* Bullet 2
+* I need to do more work with CSS
+* I think that Javascript makes more sense
 
-'''
-var thisVariable = "awesome variable";
-'''
+![This is the baby dog](https://scontent-atl.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10393730_10204007275035303_2177983987805958883_n.jpg?oh=1df1e8d906319ce8bd8e9f3c1ffdffec&oe=5596C47C)
 
-> "That" - She
 
-[a link to me](http://www.stevebrownlee.com)
+> "Live in the sunshine. Swim in the sea. Drink the wild air" - RWE
+
+> "This is water" - DWF
+
+[David Foster Wallace](https://www.youtube.com/watch?v=8CrOL-ydFMI)
 
