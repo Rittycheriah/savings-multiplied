@@ -22,6 +22,8 @@ I'm trying to write out a paragraph in this section to see if this might work. I
 
 ![Appa with the baby dog](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/7341_10203415442079849_6899539792034493320_n.jpg?oh=4f076ea6fcd0524343cba0389fc1bf51&oe=55835A32&__gda__=1434545685_000f81445f6ea8bb7b6cec51ff0a8f0b)
 
+![my favorite beer: traveler illusive shandy](http://www.wearenotmartha.com/wp-content/uploads/Grapefruit-Shandy-Beer.jpg)
+
 > "Live in the sunshine. Swim in the sea. Drink the wild air" - RWE
 
 > "This is water" - DWF
