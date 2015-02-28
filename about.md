@@ -16,6 +16,6 @@
 * Bullet 1
 * Bullet 2
 
-<pre class="code">
+'''
 var thisVariable = "awesome variable";
-</pre>
+'''
