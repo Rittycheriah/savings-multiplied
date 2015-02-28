@@ -1,22 +1,20 @@
 # Heading 1
 
-<h2>Heading 2</h2>
+## Heading 2
 
-<h3>Heading 3</h3>
+###Heading 3
 
-<ol>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-<li>Item 4</li>
-</ol>
 
-<hr/>
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
 
-<ul>
-<li>Bullet 1</li>
-<li>Bullet 2</li>
-</ul>
+
+--- 
+
+* Bullet 1
+* Bullet 2
 
 <pre class="code">
 var thisVariable = "awesome variable";
