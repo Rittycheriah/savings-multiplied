@@ -24,9 +24,9 @@ I'm trying to write out a paragraph in this section to see if this might work. I
 
 ![my favorite beer: traveler illusive shandy](http://www.wearenotmartha.com/wp-content/uploads/Grapefruit-Shandy-Beer.jpg)
 
-> "Live in the sunshine. Swim in the sea. Drink the wild air" - RWE
+> *"Live in the sunshine. Swim in the sea. Drink the wild air" - RWE*
 
-> "This is water" - DWF
+> **"This is water" - DWF**
 
 [David Foster Wallace](https://www.youtube.com/watch?v=8CrOL-ydFMI)
 
