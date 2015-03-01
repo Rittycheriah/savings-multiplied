@@ -176,11 +176,17 @@
 	height: 80%;
 	width: 30%;
 	margin: 0% 5% 0% 5%;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+	font-size: 20px;
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 35px;
 
+}
+
+#headingdiv {
+	margin-top: 0;
+	padding-top: 5px;
 }
 
 #searchfirstline {
@@ -191,12 +197,38 @@
 
 #searchfield {
 	margin: 0 auto;
+	width: 100%;
+}
+
+#searchfielddiv {
+	width: 150px;
+	margin-left: 25px;
+	margin-right: 10px;
+	display: block;	
+	float: left;
+}
+
+#formline {
+	width: 250px;
+	margin: 0 auto;
+	color: green;
+	padding: 20px;
+}
+
+#formline hr {
+	border: .0825em solid green;
 }
 
 #greenbutton {
 	font-family: Arial;
+	font-size: 15px;
 	background-color: green;
 	color: white;
+	border: none;
+	padding: 2px 15px 2px 15px;
+   	moz-border-radius: 25px;
+   	-webkit-border-radius:  25px;
+   	text-shadow: none;
 }
 
 .criteria {
@@ -232,6 +264,15 @@ label.conditionselector {
 	margin: 0;
 }
 
+#conditionbuttondiv {
+	display: inline-block;
+	height: 60px;
+	width: 200px;
+	float: right;
+	margin-top: -25px;
+	margin-left: 140px;
+}
+
 .contain2columns {
 	width: 80%;
 	padding: 0;
@@ -259,9 +300,6 @@ label.conditionselector {
 	border: none;
 }
 
-#sizefield.sizebutton {
-}
-
 label.sizebutton {
 	width: 100%;
 	float: left;
@@ -281,7 +319,8 @@ label.seasonbutton {
 
 .seasoncolumn {
 	width: 50%;
-	margin: 0 auto;
+	margin-left: 25px;
+	display: inline-block;
 }
 
 #typefield {
@@ -291,9 +330,9 @@ label.seasonbutton {
 }
 
 .typecolumn {
-	width: 70%;
-	margin: 0 auto;
-	float: right;
+	width: 75%;
+	margin-left: 25px;
+	display: inline-block;	
 }
 
 .dottedbottborder {

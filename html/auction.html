@@ -38,18 +38,25 @@
 				<div class="container">
 					<div class="greenfield">
 						<form action="" method="get">
-							<p id="searchfirstline" class="criteria"> Limit your search by: </p> 
+							<div id="headingdiv">
+								<p id="searchfirstline" class="criteria"> Limit your search by: </p>
+							</div>
 							
-							<input type="text" id="searchfield" size="15" maxlength="25"> 
-							<button type="button" id="greenbutton" class="criteria">Search</button>
-
-							<hr>
+							<div id="searchfielddiv">
+								<input type="text" id="searchfield" size="15" maxlength="25"> 
+							</div>
+							<div> 
+								<button type="button" id="greenbutton" class="criteria">Search</button>
+							</div>
+							<div id="formline"> <hr> </div> 
 
 					
 						  <fieldset id="conditionsearchfield">
 							<legend class="criteria" id="conditionst"> Condition: </legend>
+								  <div id="conditionbuttondiv">
 								  <label class="conditionselector"><input type="radio" class="conditionbutton" name="condition" value="New"/> New </label> 
 								  <label class="conditionselector"> <input type="radio" class="conditionbutton" name="condition" value=" Gently Used"/> Gently Used </label>
+								  <div>
 							</fieldset>
 
 						<fieldset id="sizefield">
